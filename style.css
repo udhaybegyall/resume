@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2a2a2e;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+
+  padding-top: 46px;
+  padding-left: 46px;
+
+  width: 816px;
+  height: 1056px;
+  background-color: white;
+}
+
+.head .head-name {
+  color: #1e77e2;
+  font-size: 46px;
+  font-weight: 800;
+  font-family: 'Merriweather', serif;
+}
+
+.head .head-title {
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #2a2a2e;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.head .head-links{
+  display: flex;
+}
+
+.head-links .link{
+  display: flex;
+  margin-top: 15px;
+}
+
+.link img {
+  user-select: none;
+  width: 16px;
+  height: auto;
+  filter: opacity(0.7);
+}
+
+.link p {
+  margin-left: 7px;
+  font-size: 10.6px;
+  font-weight: 500;
+  color: #49494f;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.link:nth-last-child(-n + 3) {
+  margin-left: 15px;
+}
+
+/******************** Education ***************************/
+
+.left-side {
+  margin-top: 40px;
+}
+
+.right-side {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.sub-heads {
+  color: #1e77e2;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: 'Merriweather', serif;;
+}
+
+#sub-heads {
+  margin-top: 20px;
+}
+
+.sub-title {
+  margin-top: 15px;
+  font-size: 12px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  color: #172a45;
+}
+
+#sub-title-span {
+  color: #726a8e;
+  font-family: 'Nunito', sans-serif;
+}
+
+.date {
+  font-size: 9.3px;
+  font-weight: 700;
+  white-space: pre;
+  margin-top: 5px;
+  font-family: 'Nunito', sans-serif;
+  color: #172a45;
+}
+
+.written-in {
+  font-size: 9.3px;
+  font-weight: 700;
+  white-space: pre;
+  margin-top: 5px;
+  color: #66666d;
+  font-family: 'Nunito', sans-serif;
+}
+
+.description {
+  margin-top: 5px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #726a8e;
+  font-family: 'Nunito', sans-serif;
+}
+
+.description-container {
+  display: flex;
+  justify-content: start;
+}
+
+.downloads {
+  padding: 2px;
+  border-radius: 3px;
+  color: #1e77e2;
+  background-color: #3064a418;
+}
+
+.downloads img {
+  width: 12px;
+  height: auto;
+  filter: opacity(0.7);
+}
+
+.downloads {
+  font-size: 7px;
+}
+
+.both-sides {
+  display: flex;
+}
+
+#p-languages {
+  word-spacing: 2px;
+  line-height: 1.3;
+}
