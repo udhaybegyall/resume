@@ -164,3 +164,7 @@ body {
   word-spacing: 2px;
   line-height: 1.3;
 }
+
+#cert-des {
+  font-weight: 500;
+}
